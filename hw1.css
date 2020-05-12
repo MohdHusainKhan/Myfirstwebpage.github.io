@@ -1,0 +1,124 @@
+body{
+	margin: 10px;
+	padding: 10px;
+}
+header{
+	background-image: url(" http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+	text-align: center;
+	background-color:#ffffff; 
+	padding: 15px;
+	margin: 10px;
+	margin-bottom: 0px; 
+}
+h1{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+nav a{
+	color: black;
+	display: inline-block;
+	width: 15%;
+	font-size: 30px;
+	text-decoration: none;
+	background:#ffffff;
+	opacity: 0.3;
+	border-radius: 7%;
+	margin: 20px;
+	margin-right: 50px; 
+	margin-bottom: 40px;
+	padding: 15px;
+}
+.left{
+	display: inline-block;
+	width: 20%;
+	background:#808000;
+	margin: 10px;
+	margin-top:0px; 
+	margin-right: 0px;
+	height: 200vh;
+}
+.right{
+	background: #ffffff;
+	display: inline-block;
+	float: right;
+	width: 77.5%;
+	margin-left: 0px;
+	margin: 10px;
+	font-size: 120%;
+}
+nav a.active{
+	background: #ffffff;
+	opacity: 1;
+
+}
+img{
+	display: block;
+	width: 80%;
+	border:3px solid;
+	border-color: #000000;
+	margin: 25px;  
+}
+ul a{
+	color: #4B0082;
+}
+
+table {
+	border: 0.5px solid;
+	border-color: #ffffff;
+	font-family: Arial, "Times New Roman",serif;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 120px;
+	margin-top:10px; 
+	box-sizing: border-box;
+	border-collapse: separate;
+}
+th{
+	background: #949245;
+	border: 0.5px solid #949245;
+	border-bottom: 5px solid #adff2f;
+	border-top-right-radius: 8px;
+	border-top-left-radius:8px;
+	color: #ffffff;
+	padding: 15px;
+	opacity: 1;
+	background: -moz-linear-gradient(top,#949245);
+	background: -webkit-linear-gradient(#949245 0);
+	background: -o-linear-gradient(#949245 0%,#000000);
+	background: linear-gradient(#949245 0%,#9acd32);
+}
+tr{
+	background: #e2e2e2;
+	padding: 10px;
+	opacity: 0.6;
+	border: 0.5px solid;
+	border-color: #ffffff;
+	border-radius: 2px;
+	text-align:left;
+	text-shadow: 1px 1px #ffffff;
+}
+tr:hover{
+	opacity: 1;
+}
+tr td:nth-child(2){
+	text-align: center;
+}
+tr td:nth-child(3){
+	text-align: center;
+}
+
+td{
+	padding: 10px;
+	border: 0.5px solid;
+	border-color: #ffffff;
+	font-family: Arial, "Times New Roman",serif;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 120px;
+	margin-top:10px; 
+	box-sizing: border-box;
+	border-collapse: separate;
+}
+
